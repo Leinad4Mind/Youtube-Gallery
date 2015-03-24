@@ -118,7 +118,7 @@ $lang = array_merge($lang, array(
 	'VIDEO_EMBED'			=> 'Embed Video',
 	'VIDEO_LINK'			=> 'Link do Vídeo',
 	'VIDEO_LINKS'			=> 'Links',
-	'VIDEO_LINK_YOUTUBE'		=> 'Link Youtube do Vídeo',
+	'VIDEO_LINK_YOUTUBE'		=> 'Link do Vídeo no Youtube',
 	'VIDEO_VIEWS'			=> 'Visualizações',
 
 	// Youtube video text
