@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'VIDEO_CREATED'			=> 'Este vídeo foi adicionado com sucesso.',
 	'VIDEO_DATE'			=> 'Data',
 	'VIDEO_DELETED'			=> 'Este vídeo foi removido com sucesso.',
-	'PAGE_RETURN'			=>'%sRetroceder à página de vídeos%s',
+	'PAGE_RETURN'			=> '%sRetroceder à página de vídeos%s',
 
 	'DELETE_VIDEO'			=> 'Tem a certeza que pretende remover este vídeo?',
 	'MY_VIDEOS'			=> 'Ver os meus vídeos',
