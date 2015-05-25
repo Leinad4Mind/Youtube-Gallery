@@ -1,11 +1,12 @@
 <?php
 /**
 *
-* Video [Portuguese]
+* info_acp_video [Portuguese]
 *
 * @package language
 * @version $Id$
-* @copyright (c) 2013 Vinny
+* @translation by Leinad4Mind - http://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=610725
+* @copyright (c) 2015 Vinny
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -66,15 +67,18 @@ $lang = array_merge($lang, array(
 	'VIDEO_CATEGORIES'		=> 'Categorias',
 	'VIDEO_CREATED'			=> 'Este vídeo foi adicionado com sucesso.',
 	'VIDEO_DATE'			=> 'Data',
-	'VIDEO_DELETED'			=> 'Este vídeo foi removido com sucesso.',
+	'VIDEO_DELETED_SUCCESS'		=> 'Este vídeo foi removido com sucesso.',
 	'PAGE_RETURN'			=> '%sRetroceder à página de vídeos%s',
-
-	'DELETE_VIDEO'			=> 'Tem a certeza que pretende remover este vídeo?',
+	'RETURN'			=> 'Retroceder à página anterior',
+	
+	'DELETE_VIDEO_CONFIRM'		=> 'Tem a certeza que pretende remover este vídeo?',
 	'MY_VIDEOS'			=> 'Ver os meus vídeos',
 
 	'NEED_VIDEO_URL'		=> 'Deve introduzir um <strong>url</strong> para este vídeo.',
 	'NEWEST_VIDEOS'			=> 'Vídeos Recentes',
 	'NO_VIDEOS'			=> 'Esta página não tem vídeos.',
+	'NO_CAT_VIDEOS'			=> 'Esta categoria não tem vídeos ou não existe.',
+	'NO_USER_VIDEOS'		=> 'Este utilizador não tem vídeos ou não existe.',
 	'NO_CATEGORIES'			=> 'Esta página não tem categorias.',
 	'SEARCH_VIDEOS'			=> 'Pesquisar Vídeos',
 	'TOTAL_CATEGORIES_OTHER'	=> 'Total de categorias <strong>%d</strong>',
@@ -82,7 +86,11 @@ $lang = array_merge($lang, array(
 	'TOTAL_VIDEOS'			=> 'Total de vídeos',
 	'TOTAL_VIDEOS_OTHER'		=> 'Total de vídeos <strong>%d</strong>',
 	'TOTAL_VIDEO_ZERO'		=> 'Sem <strong>nenhum</strong> vídeo',
+	'TOTAL_VIEWS_OTHER'		=> 'Total de visualizações <strong>%d</strong>',
+	'TOTAL_VIEW_ZERO'		=> 'Total de visualizações <strong>0</strong>',
 	'USER_VIDEOS'			=> 'Pesquisar vídeos do utilizador',
+	'NO_KEY_ADMIN'			=> 'Caro administrador, para poder usar a Galeria de Vídeo, terá de criar uma <strong>Chave Pública de API da Google</strong>, vá ao Painel de Administração e siga as instruções.',
+	'NO_KEY_USER'			=> 'Caro utilizador, a galeria não se encontra disponível. Por favor, visite mais tarde.',
 
 	// ACP
 	'ACP_VIDEO'			=> 'Galeria de Vídeo',
@@ -93,11 +101,14 @@ $lang = array_merge($lang, array(
 	'ACP_VIDEO_CATEGORY'		=> 'Categorias de Vídeo',
 	'ACP_VIDEO_HEIGHT'		=> 'Altura do Vídeo',
 	'ACP_VIDEO_WIDTH'		=> 'Largura do Vídeo',
+	'ACP_GOOGLE_KEY'		=> 'Chave Pública da API da Google',
+	'ACP_GOOGLE_KEY_EXPLAIN'	=> 'Para poder usar a Galeria de Vídeo, terá de criar uma <strong>Chave Pública de API da Google</strong>. Por favor, visite <a href="https://console.developers.google.com/">Google Developers Console</a> para criar a chave. Caso se depare com problemas para criar a chave, leia o guia <a href="https://developers.google.com/console/help/new/#generatingdevkeys">Google Developers Console Help: API keys</a>. A galeria irá estar desactivada até que configure a chave.',
+	'ACP_VIDEOS_PER_PAGE'		=> 'Vídeos por página',
 
 	// ACP Categories
 	'ACP_CATEGORY_CREATED'		=> 'Esta categoria foi adicionada com sucesso.',
 	'ACP_CATEGORY_DELETE'		=> 'Tem a certeza que pretende remover esta categoria?',
-	'ACP_CATEGORY_DELETED'		=> 'Esta categoria foi removida com sucesso',
+	'ACP_CATEGORY_DELETED'		=> 'Esta categoria foi removida com sucesso!',
 	'ACP_CATEGORY_EDIT'		=> 'Editar categoria',
 	'ACP_CATEGORY_UPDATED'		=> 'Esta categoria foi actualizada com sucesso!',
 	'ACP_VIDEO_CAT_ADD'		=> 'Adicionar Nova Categoria',
