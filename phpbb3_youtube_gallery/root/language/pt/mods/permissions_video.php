@@ -5,7 +5,8 @@
 *
 * @package language
 * @version $Id$
-* @copyright (c) 2014 Vinny
+* @Translation by Leinad4Mind - http://www.phpbb.com/community/memberlist.php?mode=viewprofile&u=610725
+* @copyright (c) 2015 Vinny
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
