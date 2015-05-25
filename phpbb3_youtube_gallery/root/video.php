@@ -63,10 +63,12 @@ function getYouTubeIdFromURL($url)
 	return isset($matches[1]) ? $matches[1] : false;
 }
 $youtube_id = getYouTubeIdFromURL($video_url);
-$url = "http://gdata.youtube.com/feeds/api/videos/". $youtube_id;
-$doc = new DOMDocument;
-$doc->load($url);
-$video_title = $doc->getElementsByTagName("title")->item(0)->nodeValue;
+$API_KEY = 'AIzaSyD-Zbq1gtL0GojKrBFTS117mdu8jsh8QHA'; //Create your own API Key - https://developers.google.com/youtube/registering_an_application#Create_API_Keys
+$jsonURL = file_get_contents("https://www.googleapis.com/youtube/v3/videos?id={$youtube_id}&key={$API_KEY}&type=video&part=snippet");
+$json = json_decode($jsonURL);
+if(isset($json->items[0]->snippet)){
+	$video_title = $json->items[0]->snippet->title;
+}
 
 $sql_ary = array(
 	'video_id'			=> $video_id,
